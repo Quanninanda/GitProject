@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="number" id="a">
+<input type="number" id="b">
+<input type="number" id="c">
+<button onclick="Max()">Max</button>
+</body>
+</html>
+<script>
+  function Max() {
+
+    let so1 = document.getElementById('a').value;
+    let so2 = document.getElementById('b').value;
+    let so3 = document.getElementById('c').value;
+    if (so1 < so2) {
+      if (so2 < so3) {
+        alert(so3);
+      } else {
+        alert(so2);
+      }
+    }else {
+      if (so1 < so3) {
+        alert(so3);
+      } else {
+        alert(so1);
+      }
+    }
+    }
+
+
+
+
+
+</script>

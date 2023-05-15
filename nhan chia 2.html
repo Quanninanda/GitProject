@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+<tr>
+    <td>Nhap so:</td>
+    <td><input type="text" id="dauvao"></br></br></td>
+</tr>
+<tr>
+    <td><button onclick ="nhan2()">x2</button></td>
+    <td><button onclick ="chia2()">/2</button></td>
+</tr>
+</table>
+</body>
+</html>
+<script>
+  function nhan2() {
+      let vao = document.getElementById("dauvao").value;
+      let kq = vao*2
+      alert(kq);
+  }
+  function chia2() {
+      let vao = document.getElementById("dauvao").value;
+      let kq = vao/2
+      alert(kq);
+  }
+</script>
