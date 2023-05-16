@@ -19,13 +19,17 @@
 </html>
 <script>
   function nhan2() {
-      let vao = document.getElementById("dauvao").value;
-      let kq = vao*2
-      alert(kq);
+      let vao = document.getElementById("dauvao");
+      do{
+          let kq = vao.value*2
+          vao.value = kq;
+      }while (kq != 0)
   }
   function chia2() {
-      let vao = document.getElementById("dauvao").value;
-      let kq = vao/2
-      alert(kq);
+      let vao = document.getElementById("dauvao");
+      do{
+          let kq = vao.value/2
+          vao.value = kq;
+      }while (kq != 0)
   }
 </script>
